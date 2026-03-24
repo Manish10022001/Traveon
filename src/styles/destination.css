@@ -1,0 +1,268 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5.5rem 2rem;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  color: #c9a84c;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 300;
+  color: #f0ece4;
+  line-height: 1.15;
+  margin-bottom: 0.9rem;
+}
+
+.desc {
+  color: #777;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.searchIcon {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.searchInput {
+  background: none;
+  border: none;
+  outline: none;
+  color: #f0ece4;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  width: 100%;
+}
+
+.searchInput::placeholder {
+  color: #444;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tagBtn {
+  padding: 0.38rem 1rem;
+  border-radius: 40px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s;
+  letter-spacing: 0.04em;
+  border: 1px solid #c9a84c;
+  background: transparent;
+  color: #c9a84c;
+}
+
+.tagBtn:hover {
+  background: rgba(201, 168, 76, 0.15);
+}
+
+.tagBtnActive {
+  background: #c9a84c;
+  color: #0a0806;
+}
+
+.tagBtnActive:hover {
+  background: #c9a84c;
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.35s, box-shadow 0.35s;
+  cursor: pointer;
+  animation: fadeUp 0.5s ease both;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 28px 55px rgba(0, 0, 0, 0.55);
+}
+
+.cardImgWrap {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover .cardImg {
+  transform: scale(1.07);
+}
+
+.cardImgOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(10, 8, 6, 0.65) 0%,
+    transparent 60%
+  );
+}
+
+.cardTag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 0.22rem 0.7rem;
+  border-radius: 40px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #0a0806;
+  letter-spacing: 0.04em;
+}
+
+.cardDays {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(10, 8, 6, 0.78);
+  color: #c9a84c;
+  padding: 0.22rem 0.65rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  backdrop-filter: blur(6px);
+}
+
+.cardBody {
+  padding: 1.2rem 1.35rem 1.35rem;
+}
+
+.cardCountry {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.cardName {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: #f0ece4;
+  margin-bottom: 0.45rem;
+}
+
+.cardDesc {
+  color: #666;
+  font-size: 0.83rem;
+  line-height: 1.75;
+  margin-bottom: 1.1rem;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardFrom {
+  font-size: 0.7rem;
+  color: #555;
+  margin-right: 3px;
+}
+
+.cardPrice {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  color: #c9a84c;
+  font-weight: 600;
+}
+
+.cardCta {
+  border: 1px solid #c9a84c;
+  color: #c9a84c;
+  padding: 0.38rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.25s;
+}
+
+.card:hover .cardCta {
+  background: #c9a84c;
+  color: #0a0806;
+}
+
+.noResults {
+  text-align: center;
+  color: #555;
+  font-size: 0.95rem;
+  padding: 3rem 0;
+  grid-column: 1 / -1;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .filterBar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

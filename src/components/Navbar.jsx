@@ -25,7 +25,7 @@ export default function Navbar() {
         {/* Links */}
         <div className="desktopLinks">
           {navLinks.map((item) => (
-            <a key={item} href={`${item.toLowerCase()}`} className="navLink">
+            <a key={item} href={`#${item.toLowerCase()}`} className="navLink">
               {item}
             </a>
           ))}
