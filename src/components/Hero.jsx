@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/home.css";
+import "../styles/hero.css";
 
 const heroWords = ["Discover", "Explore", "Escape", "Wander"];
 
@@ -25,7 +25,7 @@ const stats = [
   { value: "4.9★", label: "Rating" },
 ];
 
-export default function Home() {
+export default function Hero() {
   // index for changing words
   const [wordIndex, setWordIndex] = useState(0);
 

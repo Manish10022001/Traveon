@@ -1,22 +1,17 @@
 import "./App.css";
-import Destination from "./components/Destination";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
-import Testimonials from "./components/Testimonial";
 
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import TripDetail from "./pages/TripDetail";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Destination />
-      <Experience />
-      <Testimonials />
-      <Newsletter />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/trip/:id" element={<TripDetail />} />
+      </Routes>
     </>
   );
 }
