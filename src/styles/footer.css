@@ -1,0 +1,77 @@
+/* Footer section */
+.footer-section {
+  background: #070604;
+  padding: 4rem 2rem 2rem;
+}
+
+/* Top part: logo + columns */
+.footer-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Logo */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logoIcon {
+  font-size: 1.2rem;
+  color: #c9a84c;
+}
+
+.footer-logoText {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #f0ece4;
+}
+
+.footer-desc {
+  color: #666;
+  margin-top: 0.75rem;
+  max-width: 260px;
+  line-height: 1.7;
+  font-size: 0.85rem;
+}
+
+/* Column title */
+.footer-colTitle {
+  color: #f0ece4;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+/* Column links */
+.footer-link {
+  display: block;
+  color: #555;
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-bottom: 0.6rem;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #c9a84c;
+}
+
+/* Bottom part: copyright */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  border-top: 1px solid #111;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
