@@ -1,7 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <div>Traveon</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;

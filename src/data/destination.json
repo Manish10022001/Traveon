@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Santorini",
+    "country": "Greece",
+    "price": "$1,299",
+    "days": "7 Days",
+    "tag": "Romantic",
+    "img": "/images/greece.jpg",
+    "desc": "Whitewashed cliffs, volcanic sunsets, and Aegean blue as far as the eye can see."
+  },
+  {
+    "id": 2,
+    "name": "Kyoto",
+    "country": "Japan",
+    "price": "$1,899",
+    "days": "10 Days",
+    "tag": "Cultural",
+    "img": "/images/japan.jpg",
+    "desc": "Ancient temples, cherry blossoms, and a timeless world suspended in ritual."
+  },
+  {
+    "id": 3,
+    "name": "Patagonia",
+    "country": "Argentina",
+    "price": "$2,199",
+    "days": "12 Days",
+    "tag": "Adventure",
+    "img": "/images/argentina.jpg",
+    "desc": "Glacier-carved peaks and infinite wilderness at the edge of the world."
+  },
+  {
+    "id": 4,
+    "name": "Amalfi Coast",
+    "country": "Italy",
+    "price": "$1,599",
+    "days": "8 Days",
+    "tag": "Luxury",
+    "img": "/images/italy.jpg",
+    "desc": "Lemon groves, pastel villages, and the most dramatic coastline in Europe."
+  },
+  {
+    "id": 5,
+    "name": "Marrakech",
+    "country": "Morocco",
+    "price": "$899",
+    "days": "6 Days",
+    "tag": "Exotic",
+    "img": "morocco.jpg",
+    "desc": "Spice-soaked souks, riads, and a city that overwhelms every sense."
+  },
+  {
+    "id": 6,
+    "name": "Maldives",
+    "country": "Indian Ocean",
+    "price": "$3,499",
+    "days": "9 Days",
+    "tag": "Luxury",
+    "img": "/images/maldives.jpg",
+    "desc": "Overwater bungalows, bioluminescent shores, and crystalline infinity."
+  }
+]
