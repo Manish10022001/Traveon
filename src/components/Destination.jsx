@@ -1,6 +1,7 @@
 import { useState } from "react";
 import destination from "../data/destination.json";
 import "../styles/destination.css";
+import { useNavigate } from "react-router-dom";
 const tagColors = {
   Romantic: "#e8a0bf",
   Cultural: "#a0c4e8",
@@ -14,6 +15,7 @@ const allTags = ["All", ...new Set(destination.map((d) => d.tag))];
 
 // single destination card component
 function DestinationCard({ dest }) {
+  const navigate = useNavigate();
   return (
     <div className="card">
       <div className="cardImgWrap">
@@ -42,7 +44,12 @@ function DestinationCard({ dest }) {
             <span className="cardFrom">from</span>
             <span className="cardPrice">{dest.price}</span>
           </div>
-          <button className="cardCta">View Trip →</button>
+          <button
+            className="cardCta"
+            onClick={() => navigate(`/trip/${dest.id}`)}
+          >
+            View Trip →
+          </button>
         </div>
       </div>
     </div>

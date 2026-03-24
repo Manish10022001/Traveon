@@ -7,7 +7,14 @@
     "days": "7 Days",
     "tag": "Romantic",
     "img": "/images/greece.jpg",
-    "desc": "Whitewashed cliffs, volcanic sunsets, and Aegean blue as far as the eye can see."
+    "desc": "Whitewashed cliffs, volcanic sunsets, and Aegean blue as far as the eye can see.",
+    "highlights": [
+      "Caldera sunset cruise",
+      "Wine tasting in Oia",
+      "Black sand beach at Perissa",
+      "Private villa stay",
+      "Akrotiri archaeological site"
+    ]
   },
   {
     "id": 2,
@@ -17,7 +24,14 @@
     "days": "10 Days",
     "tag": "Cultural",
     "img": "/images/japan.jpg",
-    "desc": "Ancient temples, cherry blossoms, and a timeless world suspended in ritual."
+    "desc": "Ancient temples, cherry blossoms, and a timeless world suspended in ritual.",
+    "highlights": [
+      "Fushimi Inari shrine walk",
+      "Traditional tea ceremony",
+      "Arashiyama bamboo grove",
+      "Geisha district at night",
+      "Nishiki market food tour"
+    ]
   },
   {
     "id": 3,
@@ -27,7 +41,14 @@
     "days": "12 Days",
     "tag": "Adventure",
     "img": "/images/argentina.jpg",
-    "desc": "Glacier-carved peaks and infinite wilderness at the edge of the world."
+    "desc": "Glacier-carved peaks and infinite wilderness at the edge of the world.",
+    "highlights": [
+      "Torres del Paine trek",
+      "Perito Moreno glacier walk",
+      "Condor spotting",
+      "Estancia gaucho experience",
+      "Los Glaciares National Park"
+    ]
   },
   {
     "id": 4,
@@ -37,7 +58,14 @@
     "days": "8 Days",
     "tag": "Luxury",
     "img": "/images/italy.jpg",
-    "desc": "Lemon groves, pastel villages, and the most dramatic coastline in Europe."
+    "desc": "Lemon groves, pastel villages, and the most dramatic coastline in Europe.",
+    "highlights": [
+      "Private boat along the coast",
+      "Positano village stroll",
+      "Limoncello tasting",
+      "Ravello cliff gardens",
+      "Fresh seafood in Amalfi town"
+    ]
   },
   {
     "id": 5,
@@ -47,7 +75,14 @@
     "days": "6 Days",
     "tag": "Exotic",
     "img": "/images/morocco.jpg",
-    "desc": "Spice-soaked souks, riads, and a city that overwhelms every sense."
+    "desc": "Spice-soaked souks, riads, and a city that overwhelms every sense.",
+    "highlights": [
+      "Djemaa el-Fna square at dusk",
+      "Souk spice market tour",
+      "Riad rooftop dinner",
+      "Atlas Mountains day trip",
+      "Traditional hammam spa"
+    ]
   },
   {
     "id": 6,
@@ -57,6 +92,13 @@
     "days": "9 Days",
     "tag": "Luxury",
     "img": "/images/maldives.jpg",
-    "desc": "Overwater bungalows, bioluminescent shores, and crystalline infinity."
+    "desc": "Overwater bungalows, bioluminescent shores, and crystalline infinity.",
+    "highlights": [
+      "Overwater bungalow stay",
+      "Snorkeling with manta rays",
+      "Bioluminescent beach night walk",
+      "Underwater restaurant dinner",
+      "Private sandbank picnic"
+    ]
   }
 ]
