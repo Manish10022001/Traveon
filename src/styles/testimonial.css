@@ -1,0 +1,107 @@
+
+.testimonial-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5.5rem 2rem;
+}
+
+.testimonial-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.testimonial-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  color: #c9a84c;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+.testimonial-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 300;
+  color: #f0ece4;
+  line-height: 1.15;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background: #111;
+  border: 1px solid #1c1c1c;
+  border-radius: 12px;
+  padding: 1.75rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.4s, box-shadow 0.4s, transform 0.4s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+}
+
+.testimonial-cardActive {
+  border-color: rgba(201, 168, 76, 0.25);
+  box-shadow: 0 0 30px rgba(201, 168, 76, 0.07);
+}
+
+.testimonial-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #c9a84c;
+  color: #0a0806;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin: 0 auto 1rem;
+}
+
+.testimonial-text {
+  color: #888;
+  font-size: 0.88rem;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 1.1rem;
+}
+
+.testimonial-name {
+  color: #c9a84c;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.testimonial-location {
+  color: #555;
+  font-size: 0.78rem;
+  margin-top: 3px;
+}
+
+.testimonial-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.testimonial-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+.testimonial-dotActive {
+  background: #c9a84c;
+}

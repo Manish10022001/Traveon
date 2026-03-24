@@ -22,9 +22,9 @@ const features = [
   },
 ];
 
-function Experience() {
+export default function Experience() {
   return (
-    <section className="experience-section" id="experiences">
+    <section className="experience-section" id="experience">
       {/* overlay for background */}
       <div className="experience-overlay" />
 
@@ -45,5 +45,3 @@ function Experience() {
     </section>
   );
 }
-
-export default Experience;

@@ -64,7 +64,7 @@ export default function Destination() {
   });
 
   return (
-    <section className="section" id="destinations">
+    <section className="section" id="destination">
       <div className="sectionHeader">
         <p className="eyebrow">Where to next?</p>
         <h2 className="title">Curated Destinations</h2>
